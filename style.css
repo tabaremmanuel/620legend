@@ -1,0 +1,228 @@
+body p{
+  font-family: 'Oxygen', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+.top-content{
+  background:url(images/main-bg.jpg) center center no-repeat;
+  background-size: cover;
+  min-height: 934px;
+  width:100%;
+}
+.header-main{
+  min-height:178px;
+  width:100%;
+  background:url(images/top-bg.png) center top no-repeat;
+}
+.logo{
+  margin-top:33px;
+}
+.s1 h2{
+  font-size: 48px;
+  font-weight: 700;
+  font-family: 'Arvo', serif;
+  color:#fff;
+  max-width:342px;
+  line-height:normal;
+  float:right
+}
+.s1 .s1-left-content{
+  padding-right: 40px;
+}
+.s1 .s1-left-content img{
+  float:left;
+}
+.container{
+  max-width:930px;
+}
+.s1 .s1-left-content p{
+  margin-bottom:22px;
+  color:#fff;
+}
+.cream-container p{
+  font-size:18px;
+}
+.cream-container{
+  max-width: 353px;
+  position: relative;
+  padding-top:130px;
+  background:#ffffdb;
+  min-height:470px;
+  box-shadow: 12px 0 24px rgba(4,4,4,0.51);
+}
+img.snow-cover{position: absolute;top:0;left:0;}
+.cream-container p{
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+img[alt="Make a kid smile"]{
+  margin-bottom: 10px;
+}
+.cream-container a.btn{
+  margin-bottom: 20px;
+  padding:5px;
+  color:#fff;
+  background-color: #b1592e;
+  max-width:257px;
+  width:100%;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight:700;
+  font-size: 24px;
+}
+.trees-bottom{
+  min-height: 197px;
+  background: url(images/trees.png) left bottom repeat-x;
+}
+
+/*Section with Child Background*/
+.child-content{
+  background:url(images/kid-bg.jpg) center 20px no-repeat;
+  background-size: cover;
+  min-height: 556px;
+}
+.child-content ul{list-style: none;}
+.child-content ul li.unopened-toys{
+  background:url(images/gift-icon.png) left top no-repeat;
+}
+.child-content ul li.food{
+  background:url(images/coffee-icon.png) left top no-repeat;
+}
+.child-content ul li.clothing{
+  background:url(images/cloth-icon.png) left top no-repeat;
+}
+.child-content ul li{
+  font-size:14px;
+  padding:10px 0 10px 72px;
+}
+.column.these-children-need{
+  max-width:415px;
+  width:100%;
+}
+.click-to-give{
+  max-width:186px;
+  width:100%;
+}
+.ctg-bg p,
+.ctg-bg img{
+  margin-bottom:14px;
+  font-weight: 700;
+}
+.ctg-bg{
+  padding-top:26px;
+  background-color:#ffffdb;
+  max-width:133px;
+  width:100%;
+  margin:0 auto;
+}
+.these-children-need ul{
+  margin-top:35px;
+}
+.child-content .column{
+  padding-top:40px;
+}
+.child-focus{
+  max-width: 318px;
+  width:100%;
+}
+/*With Green Clound Section*/
+.green-cloud{
+  padding-top:180px;
+  background:url(images/green-cloud.png) center top no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top:-80px;
+}
+.gc-c4 p,
+.gc-c1 p{
+  max-width:782px;
+  margin:0 auto 44px;
+  text-align: center;
+  color:#fff;
+  font-size:18px;
+  line-height: 30px;
+}
+.gc-c2 .btn{
+  background-color: #b1592e;
+  color:#fff;
+  border:1px solid #fff;
+  font-weight: 700;
+  font-size:21px;
+  text-align:center;
+  max-width: 254px;
+  width:100%;
+  display: inline-block;
+  padding:10px 0;
+}
+.gc-c3 p{
+  color:#000;
+  text-align: center;
+  font-size:24px;
+  font-weight: 700;
+  line-height: normal;
+}
+.green-cloud::before{
+  content:"";
+  width:297px;
+  height:452px;
+  background: url(images/pattern-1.png) center center no-repeat;
+  position: absolute;
+  bottom: 0;
+  left:0;
+}
+.green-cloud .columns{position:relative;z-index: 1;}
+.green-cloud::after{
+  content:"";
+  width:328px;
+  height:452px;
+  background: url(images/pattern-2.png) center center no-repeat;
+  position: absolute;
+  bottom: 0;
+  right:0;
+  z-index: 0;
+}
+/*Footer*/
+.footer-number a.telnum{
+  font-size:30px;
+  margin-bottom:15px;
+  display: inline-block;
+}
+.footer-number a{
+  color:#fff;
+  font-size:18px;
+}
+.footer-number{
+  width:100%;
+  text-align: center;
+}
+.footer-top{
+  padding:50px 0 25px;
+  background-color: #222222;
+}
+.footer-top .partners .column a{
+  margin:0 auto;
+}
+.footer-top .partners .column{
+  display: flex;
+  align-items: center;
+  text-align:center;
+}
+.footer-bottom p{color:#fff;font-size:12px;}
+.footer-bottom{
+  padding:15px 0;
+  background-color:#141414;
+}
+@media(min-width:1560px){
+  .green-cloud{
+    margin-top:-100px
+  }
+}
+@media(max-width:930px){
+  .container{
+    padding-left:15px;
+    padding-right:15px;
+  }
+}
+@media(max-width:767px){
+  .gc-c2 .column{text-align: center!important;}
+}
