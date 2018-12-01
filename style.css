@@ -17,12 +17,14 @@ body p{
 .logo{
   margin-top:33px;
 }
+.child-focus img{display:none;}
 .s1 h2{
   font-size: 48px;
   font-weight: 700;
   font-family: 'Arvo', serif;
   color:#fff;
   max-width:342px;
+  width:100%;
   line-height:normal;
   float:right
 }
@@ -225,4 +227,33 @@ img[alt="Make a kid smile"]{
 }
 @media(max-width:767px){
   .gc-c2 .column{text-align: center!important;}
+  .child-focus{
+    max-width: none;
+    text-align: center;
+  }
+  .child-content{
+    padding-bottom:100px;
+  }
+  .green-cloud{
+    margin-top:-120px;
+  }
+  .click-to-give,
+  .ctg-bg{max-width: none;}
+  .child-focus img{
+    display:inline-block;
+  }
+  .footer-top img{
+    max-width: none;
+    margin: 0 auto;
+  }
+  .footer-top .partners .column a{
+    margin:0;
+    width:100%;
+  }
+  .cream-container{margin:0 auto;}
 }
+@media(max-width:480px){
+  .s1 h2{font-size:24px;}
+  .footer-top img{width:40%;}
+}
+a[title="Hosted on free web hosting 000webhost.com. Host your own website for FREE."]{display:none;}
